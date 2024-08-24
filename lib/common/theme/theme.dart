@@ -12,7 +12,7 @@ class ThemeManager {
     ),
     appBarTheme: AppBarTheme(
       centerTitle: true,
-      backgroundColor: ColourManager.primaryLightBeige,
+      backgroundColor: ColourManager.primaryBlack,
       titleTextStyle: AppTextTheme.theme.labelSmall?.semiBold.primaryRichBlack,
       iconTheme: IconThemeData(
         color: ColourManager.primaryRichBlack,
@@ -49,6 +49,7 @@ class ThemeManager {
         ),
       ),
     ),
+    scaffoldBackgroundColor: ColourManager.primaryBlack
 
   );
 }

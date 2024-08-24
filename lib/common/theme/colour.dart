@@ -5,6 +5,8 @@ class ColourManager {
 
   static const Color facebookBlue = Color(0xFF1877F2);
 
+  static const Color primaryBlack = Color(0xFF000000);
+
   static const Color primaryCream = Color(0xFFF2EEDC);
 
   static const Color primaryEarthTint = Color(0xFFECEAE6);
@@ -27,7 +29,7 @@ class ColourManager {
 
   static const Color secondaryBlue = Color(0xFF91BCFF);
 
-  static const Color secondaryBrightGreen = Color(0xFF99CD53);
+  static const Color secondaryBrightGreen = Color(0xFF000000);
 
   static const Color secondaryCoral = Color(0xFFE27D63);
 

@@ -71,10 +71,10 @@ extension DecorationExtension on TextStyle? {
 
 extension AppTextColor on TextStyle? {
   TextStyle? get primaryRichBlack =>
-      this?.copyWith(color: ColourManager.primaryRichBlack);
+      this?.copyWith(color: ColourManager.primaryWhite);
 
   TextStyle? get primaryRichBlackOpc05 =>
-      this?.copyWith(color: ColourManager.primaryRichBlack.opc05);
+      this?.copyWith(color: ColourManager.primaryWhite.opc05);
 
   TextStyle? get primaryWhite =>
       this?.copyWith(color: ColourManager.primaryWhite);
@@ -110,7 +110,7 @@ extension AppTextColor on TextStyle? {
       this?.copyWith(color: ColourManager.secondaryEarth);
 
   TextStyle? get hintColor =>
-      this?.copyWith(color: ColourManager.primaryRichBlack.opc05);
+      this?.copyWith(color: ColourManager.primaryWhite.opc05);
 
   TextStyle? get systemRed => this?.copyWith(color: Colors.red);
 }
