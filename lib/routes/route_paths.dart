@@ -1,6 +1,8 @@
 class RoutePaths {
   static String defaultScreen = '/';
 
+  static String landingScreen = '/landingScreen';
+
   static String loginScreen = '/loginScreen';
 
   static String profileListScreen = 'profileListScreen';

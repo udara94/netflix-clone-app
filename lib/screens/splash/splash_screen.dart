@@ -22,7 +22,7 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
     super.initState();
     SchedulerBinding.instance.addPostFrameCallback((_){
       Timer(DurationManager.duration3s, (){
-        _navigateToHome();
+        _navigateToLandingScreen();
       });
     });
   }
@@ -42,7 +42,7 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
     );
   }
 
-  void _navigateToHome(){
-   context.replace(RoutePaths.homeScreen);
+  void _navigateToLandingScreen(){
+    context.replace(RoutePaths.landingScreen);
   }
 }

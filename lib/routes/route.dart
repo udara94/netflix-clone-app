@@ -3,6 +3,8 @@ import 'package:go_router/go_router.dart';
 import 'package:netflix_clone/common/constants/duration.dart';
 import 'package:netflix_clone/routes/route_paths.dart';
 import 'package:netflix_clone/screens/home/home_screen.dart';
+import 'package:netflix_clone/screens/landing/landing_screen.dart';
+import 'package:netflix_clone/screens/login/sign_in_screen.dart';
 import 'package:netflix_clone/screens/splash/splash_screen.dart';
 import 'package:page_transition/page_transition.dart';
 
@@ -40,6 +42,18 @@ class RouteManager {
         path: RoutePaths.defaultScreen,
         builder: (BuildContext context, GoRouterState state) {
           return const SplashScreen();
+        }),
+    GoRoute(
+        path: RoutePaths.landingScreen,
+      builder: (BuildContext context, GoRouterState state){
+          return const LandingScreen();
+      }
+
+    ),
+    GoRoute(
+        path: RoutePaths.loginScreen,
+        builder: (BuildContext context, GoRouterState state) {
+          return const LoginScreen();
         }),
     GoRoute(
         path: RoutePaths.homeScreen,

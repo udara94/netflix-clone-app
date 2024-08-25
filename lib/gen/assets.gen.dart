@@ -19,10 +19,26 @@ class $AssetsGifsGen {
   List<AssetGenImage> get values => [netflix];
 }
 
+class $AssetsImagesGen {
+  const $AssetsImagesGen();
+
+  /// File path: assets/images/netflix-background.jpg
+  AssetGenImage get netflixBackground =>
+      const AssetGenImage('assets/images/netflix-background.jpg');
+
+  /// File path: assets/images/netflix-logo.webp
+  AssetGenImage get netflixLogo =>
+      const AssetGenImage('assets/images/netflix-logo.webp');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [netflixBackground, netflixLogo];
+}
+
 class Assets {
   Assets._();
 
   static const $AssetsGifsGen gifs = $AssetsGifsGen();
+  static const $AssetsImagesGen images = $AssetsImagesGen();
 }
 
 class AssetGenImage {

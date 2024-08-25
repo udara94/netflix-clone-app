@@ -47,6 +47,10 @@ class ColourManager {
 
   static const Color thumbnailMaskColor = Color(0x66005F63);
 
+  static const Color transparent = Color(0x00000000);
+
+  static const Color primaryRed = Color(0xFFF00000);
+
   static const List<Color> cardBackgroundGradient = [
     Color(0xFF005D62),
     Color(0xFF005D62),

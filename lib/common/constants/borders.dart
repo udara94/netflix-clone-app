@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:netflix_clone/common/theme/colour.dart';
 
 class BorderManager {
-  static BorderRadius defaultButtonRadius = BorderRadius.circular(8);
+  static BorderRadius defaultButtonRadius = BorderRadius.circular(4);
   static BorderRadius radius8 = BorderRadius.circular(8);
   static BorderRadius radius10 = BorderRadius.circular(10);
   static BorderRadius radius16 = BorderRadius.circular(16);
