@@ -5,6 +5,8 @@ class RoutePaths {
 
   static String loginScreen = '/loginScreen';
 
+  static String signUpScreen = '/signUpScreen';
+
   static String profileListScreen = 'profileListScreen';
 
   static String addProfileScreen = 'addProfileScreen';

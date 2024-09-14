@@ -5,6 +5,7 @@ import 'package:netflix_clone/routes/route_paths.dart';
 import 'package:netflix_clone/screens/home/home_screen.dart';
 import 'package:netflix_clone/screens/landing/landing_screen.dart';
 import 'package:netflix_clone/screens/login/sign_in_screen.dart';
+import 'package:netflix_clone/screens/signup/sign_up_screen.dart';
 import 'package:netflix_clone/screens/splash/splash_screen.dart';
 import 'package:page_transition/page_transition.dart';
 
@@ -55,6 +56,12 @@ class RouteManager {
         builder: (BuildContext context, GoRouterState state) {
           return const LoginScreen();
         }),
+    GoRoute(
+        path: RoutePaths.signUpScreen,
+      builder: (BuildContext context, GoRouterState state){
+          return const SignUpScreen();
+      }
+    ),
     GoRoute(
         path: RoutePaths.homeScreen,
         builder: (BuildContext context, GoRouterState state) {

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class PaddingManager {
   static EdgeInsets zero = EdgeInsets.zero;
 
+  static EdgeInsets defaultScreenPadding = const EdgeInsets.all(20);
   static EdgeInsets articleH1Padding5 = const EdgeInsets.only(bottom: 5);
 
   static EdgeInsets articleH1Padding10 = const EdgeInsets.only(bottom: 10);
@@ -29,15 +30,16 @@ class PaddingManager {
     bottom: 15,
   );
 
-  static EdgeInsets articleImagePadding = const EdgeInsets.only(bottom: 5);
-
-  static EdgeInsets defaultPaddingBottom = const EdgeInsets.only(bottom: 20);
 
   static EdgeInsets defaultPaddingAll = const EdgeInsets.all(20);
+
+  static EdgeInsets defaultTextFormPadding = const EdgeInsets.symmetric(horizontal: 10);
 
   static EdgeInsets defaultPaddingHorizontal = const EdgeInsets.symmetric(horizontal: 20);
 
   static EdgeInsets paddingHorizontal30 = const EdgeInsets.symmetric(horizontal: 30);
+
+
 
   static EdgeInsets backBarPadding =
       const EdgeInsets.symmetric(horizontal: 20, vertical: 10);

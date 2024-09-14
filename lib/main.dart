@@ -14,6 +14,7 @@ class NetflixClone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
+      debugShowCheckedModeBanner: false,
       theme: ThemeManager.appTheme,
       routerConfig: RouteManager.routes,
     );

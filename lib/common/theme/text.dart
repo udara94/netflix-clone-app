@@ -70,8 +70,8 @@ extension DecorationExtension on TextStyle? {
 }
 
 extension AppTextColor on TextStyle? {
-  TextStyle? get primaryRichBlack =>
-      this?.copyWith(color: ColourManager.primaryWhite);
+  TextStyle? get primaryBlack =>
+      this?.copyWith(color: ColourManager.primaryBlack);
 
   TextStyle? get primaryRichBlackOpc05 =>
       this?.copyWith(color: ColourManager.primaryWhite.opc05);

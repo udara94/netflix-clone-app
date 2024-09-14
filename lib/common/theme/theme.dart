@@ -13,7 +13,7 @@ class ThemeManager {
     appBarTheme: AppBarTheme(
       centerTitle: true,
       backgroundColor: ColourManager.primaryBlack,
-      titleTextStyle: AppTextTheme.theme.labelSmall?.semiBold.primaryRichBlack,
+      titleTextStyle: AppTextTheme.theme.labelSmall?.semiBold.primaryBlack,
       iconTheme: IconThemeData(
         color: ColourManager.primaryRichBlack,
       ),
@@ -23,6 +23,8 @@ class ThemeManager {
     colorScheme: ColorScheme.fromSeed(
       seedColor: ColourManager.secondaryBrightGreen,
       background: ColourManager.primaryLightBeige,
+      onPrimary: ColourManager.primaryWhite,
+      primary: ColourManager.primaryWhite
     ),
     inputDecorationTheme: InputDecorationTheme(
       filled: true,

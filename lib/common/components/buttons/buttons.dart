@@ -30,7 +30,7 @@ class NetflixButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var style = textStyle ?? context.textTheme.labelSmall.semiBold.primaryWhite;
+    var style = textStyle ?? context.textTheme.labelMedium.semiBold.primaryWhite;
 
     final children = <Widget>[];
 

@@ -102,6 +102,7 @@ class _LandingScreenState extends State<LandingScreen> {
               Padding(
                 padding: PaddingManager.all4,
                 child: NetflixButton.primary(
+                  onTap: _navigateToSignUpPage,
                   StringManager.getStarted,
                   padding: PaddingManager.all8,
                 ),
@@ -115,5 +116,9 @@ class _LandingScreenState extends State<LandingScreen> {
 
   void _navigateToLoginScreen() {
     context.push(RoutePaths.loginScreen);
+  }
+
+  void _navigateToSignUpPage(){
+    context.push(RoutePaths.signUpScreen);
   }
 }
